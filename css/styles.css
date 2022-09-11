@@ -1,9 +1,53 @@
+
+/* This is a margin and padding reset for the entire page*/
 * {
     margin: 0px;
     padding: 0px;
 }
+/* ------------------------------------------ */
 
+
+/*This section styles the body (main content) of the page */
 body {
-    background: black;
-    color: white;
+    display: flex;
+    flex-direction: column;
 }
+/* ------------------------------------------ */
+
+
+/* This section styles the header bar at the top of the page */
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #0d757d;
+    color: #ffffff;
+}
+/* ------------------------------------------ */
+
+
+/* This section styles the header links at the top of the page */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+}
+/* ------------------------------------------ */
+
+/* This section helps position the header links correctly on the page */
+.header-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+/* ------------------------------------------ */
+
+/* This section styles the header logo */
+.header-logo {
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.75rem;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+/* ------------------------------------------ */
