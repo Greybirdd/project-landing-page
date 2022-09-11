@@ -20,8 +20,11 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-    background-color: #0d757d;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    background-color: #1f2937;
     color: #ffffff;
+    flex-direction: column;
 }
 /* ------------------------------------------ */
 
@@ -29,18 +32,21 @@ body {
 /* This section styles the header links at the top of the page */
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #e5e7eb;
     font-weight: 700;
 }
 /* ------------------------------------------ */
+
 
 /* This section helps position the header links correctly on the page */
 .header-links {
     display: flex;
     gap: 1rem;
     justify-content: flex-end;
+    padding-bottom: 6rem;
 }
 /* ------------------------------------------ */
+
 
 /* This section styles the header logo */
 .header-logo {
@@ -49,5 +55,95 @@ a {
     font-size: 1.75rem;
     margin-top: -20px;
     margin-left: -20px;
+    color: #f9faf8;
 }
 /* ------------------------------------------ */
+
+
+/* This section styles the paragraph under <h1> This Website is Awesome*/
+.main-p {
+    color: #e5e7eb;
+    font-size: 1.15rem;
+}
+/* ------------------------------------------ */
+
+
+/*Next Section - Section 2 of Header - Contains first sign-up button and place holder image*/
+
+/* Top class styles the h1, the paragraph below it and the sign up button */
+.top {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 3rem;
+}
+/* ------------------------------------------ */
+
+
+/* This section styles the h1 header This Website is Awesome */
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+/* ------------------------------------------ */
+
+
+/* This section is used to help position the first sign-up button on the page */
+.button-one {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+/* ------------------------------------------ */
+
+
+/* Style the first sign-up button */
+button {
+    background-color: #3882f6;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+/* ------------------------------------------ */
+
+
+
+/* Used to style the first/main place holder image*/
+.image-one {
+    background-color: grey;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 500px;
+}
+/* ------------------------------------------ */
+
+
+/* Used to create a wrapper around class top and class image-one to help position them on the page*/
+.wrapper-one {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+/* ------------------------------------------ */
+
+
+/* Next Section - Contains "Some random information.", the 4 image place holders and their paragraphs beneth the image place holders */
+
+
+
+
+
+
+
+
+
+
+
+
+
