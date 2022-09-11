@@ -135,7 +135,14 @@ button {
 
 /* Next Section - Contains "Some random information.", the 4 image place holders and their paragraphs beneth the image place holders */
 
-
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+    background-color: yellow;
+}
 
 
 
