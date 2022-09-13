@@ -236,9 +236,44 @@ h2 {
 /* Next Section - Call to Action */
 
 
+.call-to-action {
+    display: flex;
+    background-color: #3882f6;
+    width: 800px;
+    height: 100px;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15rem;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #ffffff;
+    font-size: 1.25rem;
+}
+
+span {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.button2 {
+    border: 1px solid white;
+    border-style: none;
+}
 
 
+/* Styled Footer Below */
 
+footer {
+    margin-top: 200px;
+    text-align: center;
+    background-color: #1f2937;
+    color: #ffffff;
+    padding: 2rem;
+}
 
 
 
