@@ -259,9 +259,13 @@ span {
     font-size: 1.5rem;
 }
 
-.button2 {
-    border: 1px solid white;
+button {
     border-style: none;
+}
+
+.button2 {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
 }
 
 
