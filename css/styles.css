@@ -242,16 +242,17 @@ h2 {
     width: 800px;
     height: 100px;
     align-items: center;
-    margin: auto;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 15rem;
-    margin-bottom: 1rem;
+    margin-top: 100px;
+    margin-bottom: 0rem;
     border-radius: 15px;
     padding-left: 40px;
     padding-right: 40px;
     color: #ffffff;
     font-size: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 span {
@@ -263,6 +264,8 @@ button {
     border-style: none;
     font-size: 1.30rem;
     font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .button2 {
@@ -274,7 +277,7 @@ button {
 /* Styled Footer Below */
 
 footer {
-    margin-top: 200px;
+    margin-top: 100px;
     text-align: center;
     background-color: #1f2937;
     color: #ffffff;
