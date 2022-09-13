@@ -51,8 +51,8 @@ a {
 /* This section styles the header logo */
 .header-logo {
     font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.75rem;
+    font-family: sans-serif, serif, 'Times New Roman',;
+    font-size: 1.25rem;
     margin-top: -20px;
     margin-left: -20px;
     color: #f9faf8;
