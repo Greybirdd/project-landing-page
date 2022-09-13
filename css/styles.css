@@ -135,46 +135,108 @@ button {
 
 /* Next Section - Contains "Some random information.", the 4 image place holders and their paragraphs beneth the image place holders */
 
+
+/* Wraps around h2 and 4 images and 4 paragraphs */
 .middle {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin: 3rem;
-    background-color: yellow;
+    margin: 4rem;
+    padding: 7rem;
 }
+/* --------------------------------- */
 
+
+/* Styles Some Random Information. text */
 h2 {
     margin-top: 10px;
-    margin-bottom: -30px;
+    margin-bottom: -100px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/* --------------------------------- */
 
+
+/* Styles 4 Images and Paragraphs below them */
 .imageone {
-    height: 50px;
-    width: 50px;
+    display: flex;
+    height: 200px;
+    width: 200px;
     border: solid blue;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 190px;
+    align-items: center;
 }
 
 .imagetwo {
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
     border: solid blue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 190px;
+    align-items: center;
 }
 
 .imagethree {
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
     border: solid blue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 190px;
+    align-items: center;
 }
 
 .imagefour {
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
     border: solid blue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 190px;
+    align-items: center;
 }
+/* --------------------------------- */
+
+
+/* Next Section - Quote */
+
+/* Used to style quote */
+.quote  {
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    flex-wrap: wrap;
+    padding: 7rem;
+    justify-content: center;
+    align-items: center;
+}
+/* ----------------------------*/
+
+
+/* Style Thor, God of Thunder */
+.quote-credit {
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 80%;
+    margin-top: 3%;
+}
+/* ----------------------------*/
+
+/* Next Section - Call to Action */
+
+
+
 
 
 
